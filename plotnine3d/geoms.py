@@ -2,7 +2,7 @@ import importlib
 import packaging
 from warnings import warn
 from plotnine import geom_polygon, geom_point, geom_path, geom_text, geom_label
-from plotnine.utils import to_rgba, SIZE_FACTOR
+from plotnine._utils import to_rgba, SIZE_FACTOR
 from plotnine.geoms.geom_path import _get_joinstyle
 import numpy as np
 
